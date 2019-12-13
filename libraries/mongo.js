@@ -20,7 +20,7 @@ class MongoLib {
                     if (err) {
                         reject(err);
                     }
-                    console.log('coneccion agregada');
+                    console.log('connection to mongo');
                     resolve(this.client.db(this.dbName));
                 });
             });
